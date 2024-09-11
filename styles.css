@@ -1,0 +1,178 @@
+*{
+  background-color: #f6f1e3;
+  font-family: Helvetica, sans-serif;
+}
+
+#header {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  background-color: purple;
+  border: 0 !important;
+}
+
+#header-img{
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+#nav-bar{
+  display: flex;
+  position: fixed;
+  width: 95%;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links{  
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+main{
+padding-top: 100px;
+}
+
+h1{
+  display: inline-block;
+}
+
+
+h3, h4{
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+
+
+}
+
+.form{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+  #email{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: #F4EFFA;
+  border: #F4EFFA;
+}
+  #submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.books{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.books p{
+ padding-top: 10px;
+}
+
+.book-1 img, .book-2 img, .book-3 img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.rating{
+  text-align: center;
+  padding-top: 10px;
+}
+
+#booktube{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 80px;
+}
+
+#video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px
+}
+
+#booktube > p{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer{
+  text-align: right;
+  padding-top: 10px;
+}
+
+/* media query */
+
+@media (max-width: 600px){
+  .books{
+  display: block;
+  margin: auto;
+  }
+  .book-1 img, .book-2 img, .book-3 img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%
+      }
+  .rating{
+      text-align: center;
+      font-size: 25px;
+  }
+
+  h3, h4{
+      text-align: center;
+  }
+  .description {
+      text-align: justify;
+  }
+  .form{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%
+  }
+  #email{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%
+  }
+  #submit{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
